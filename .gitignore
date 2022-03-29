@@ -4,7 +4,11 @@ __pycache__
 .pytest_cache
 .venv
 *.egg-info
+.data
 
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# CDK context file (this repo will be public and doesn't need a context file)
+cdk.context.json
